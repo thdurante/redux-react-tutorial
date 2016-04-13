@@ -10,6 +10,7 @@ import Voting from '../../src/components/Voting';
 import {expect} from 'chai';
 
 describe('Voting', () => {
+    
     it('renders a pair of buttons', () => {
         const component = renderIntoDocument(
             <Voting pair={["Trainspotting", "28 Days Later"]} />
